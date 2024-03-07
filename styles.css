@@ -21,7 +21,7 @@ h1 {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-
+    padding: 20px;
 }
   
 .links {
@@ -123,6 +123,7 @@ body{
     color: black;
     font-size: large;
 }
+
 
 .logo img {
     max-width: 30%;
