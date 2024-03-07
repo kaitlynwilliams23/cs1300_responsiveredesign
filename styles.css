@@ -8,6 +8,62 @@
     font-family: 'Vazirmatn';
 }
 
+h1 {
+    font-family: 'Rajdhani';
+    font-size:xx-large;
+}
+
+.page_background{
+    background-color: white;
+}
+
+.main_page {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+  
+.links {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ACCECE;
+    font-family: 'Vazirmatn';
+}
+  
+.links text {
+    flex: 1;
+}
+  
+.links-container {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.links-container a {
+    margin-right: 10px;
+    margin-top: 35px;
+    justify-content: center;
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+}
+  
+.image {
+    flex: 1;
+    padding: 20px;
+}
+  
+.main_page img {
+    max-width: 60%;
+    height: auto;
+    justify-content: center;
+    justify-content: space-around;
+}
+
 .button-1 {
   background-color: #3F93B1;
   border-radius: 8px;
@@ -54,9 +110,10 @@ body{
     padding: 20px;
     background-color: #F0F4F4;
     color: black;
+    font-size: large;
 }
 
-img {
+.logo img {
     max-width: 30%;
     max-height: 30%;
     height: auto;
